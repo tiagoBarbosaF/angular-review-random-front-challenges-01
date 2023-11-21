@@ -1,0 +1,21 @@
+<section>
+  <h1>Border radius previewer</h1>
+
+  <div class="form-container">
+    <div class="input-container">
+      <label for="border-top-left">Border top left:</label>
+      <input type="number" id="border-top-left" [(ngModel)]="valueInputTopLeft" (input)="updateStyles()">
+      <label for="border-top-right">Border top right:</label>
+      <input type="number" id="border-top-right" [(ngModel)]="valueInputTopRight" (input)="updateStyles()">
+      <label for="border-bottom-right">Border bottom right:</label>
+      <input type="number" id="border-bottom-right" [(ngModel)]="valueInputBottomRight" (input)="updateStyles()">
+      <label for="border-bottom-left">Border bottom left:</label>
+      <input type="number" id="border-bottom-left" [(ngModel)]="valueInputBottomLeft" (input)="updateStyles()">
+    </div>
+
+    <div class="square-container">
+      <div class="square"></div>
+    </div>
+  </div>
+
+</section>
