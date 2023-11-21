@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BorderRadiusPreviewerComponent } from './border-radius-previewer/border-radius-previewer.component';
 import {FormsModule} from "@angular/forms";
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BorderRadiusPreviewerComponent
+    BorderRadiusPreviewerComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
